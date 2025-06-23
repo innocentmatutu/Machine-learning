@@ -26,5 +26,5 @@ def encryption(message,custom_key):
     return decryp(message,custom_key)
 decrypted =decryption(message,custom_key)
 print(f'Encrypted message: {message}')
-print(f'custom key:{custom_key}')
+print(f'custom key: {custom_key}')
 print(f'Decrypted message is: {decrypted}')
