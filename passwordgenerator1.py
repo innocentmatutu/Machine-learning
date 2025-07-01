@@ -36,6 +36,6 @@ def password_generator(length,nums,uppercase,lowercase,special_chars):
     return password
     
 def main():
-    new_password = password_generator(12, 1, 1, 1, 1)
+    new_password = password_generator(16, 1, 1, 1, 1)
     print('Generated password is:', new_password)
 main()
